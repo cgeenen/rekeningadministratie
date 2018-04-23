@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="/RekeningAdministratie/stylesheet.css" />
+    </head>
+    <body>
+        <div id="container">
+            <div class="generalcontainer">
+                <button type="submit" class="registerbtn">Register</button>
+                <div class="logincontainer">
+                    <div class="loginlayoutblock">   
+                        <h2 class="logintext">Login</h2>
+                    </div>
+                    <div class="login">
+                        <form action="j_security_check" method="POST">
+                            <input type="text" placeholder="Enter Username" name="j_username" />
+                            <input type="password" placeholder="Enter Password" name="j_password" />
+                            <button type="submit" class="loginbtn">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

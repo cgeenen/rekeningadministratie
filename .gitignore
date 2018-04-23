@@ -1,0 +1,15 @@
+# Folders #
+nbproject/
+
+# Target #
+target/*
+
+# Configuratie xml #
+RekeningAdministratie\src\main\webapp\WEB-INF\glassfish-resources.xml
+
+.git/
+
+.sonar/
+sonar-project.properties
+
+*.original
